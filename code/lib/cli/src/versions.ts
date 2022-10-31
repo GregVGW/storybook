@@ -41,6 +41,7 @@ export default {
   '@storybook/docs-tools': '7.0.0-alpha.46',
   '@storybook/ember': '7.0.0-alpha.46',
   '@storybook/html': '7.0.0-alpha.46',
+  '@storybook/html-vite': '7.0.0-alpha.46',
   '@storybook/html-webpack5': '7.0.0-alpha.46',
   '@storybook/instrumenter': '7.0.0-alpha.46',
   '@storybook/nextjs': '7.0.0-alpha.46',
