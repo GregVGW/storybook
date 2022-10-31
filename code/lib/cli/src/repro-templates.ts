@@ -152,7 +152,7 @@ const htmlWebpackTemplates = {
 const htmlViteTemplates = {
   'html-vite/default-js': {
     name: 'HTML Vite JS',
-    script: 'yarn create vite . --template vanilla',
+    script: 'yarn create vite . --template vanilla && echo "export default {}" > vite.config.js',
     cadence: ['daily', 'weekly'],
     expected: {
       framework: '@storybook/html-vite',
@@ -162,7 +162,7 @@ const htmlViteTemplates = {
   },
   'html-vite/default-ts': {
     name: 'HTML Vite TS',
-    script: 'yarn create vite . --template vanilla-ts',
+    script: 'yarn create vite . --template vanilla-ts && echo "export default {}" > vite.config.ts',
     cadence: ['daily', 'weekly'],
     expected: {
       framework: '@storybook/html-vite',
